@@ -38,7 +38,7 @@ const About = () => (
         My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1YIG23Z643fDjxrWRsFYJf1ibCjkXrZ_3/view?usp=drivesdk" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
