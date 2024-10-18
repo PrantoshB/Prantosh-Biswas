@@ -48,7 +48,7 @@ const Contact = () => (
           {' '}
           <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">WELLFOUND</a>
         </span>
-        <span><a href="https://www.twitter.com/prantalks" target="_blank" rel="noreferrer">TWITTER</a></span>
+        <span><a href="https://www.twitter.com/prancasm" target="_blank" rel="noreferrer">X (FKA TWITTER)</a></span>
       </div>
     </div>
   </div>

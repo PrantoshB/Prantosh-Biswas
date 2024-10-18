@@ -24,11 +24,15 @@ import Canva from '../assets/canva.png'
 import CDT from '../assets/cdt.png'
 import CSS from '../assets/css.png'
 import BootStrap from '../assets/bootstrap.png'
-import NextJS from '../assets/next.webp'
 import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
 import WordPress from '../assets/wordpress.png'
+import Tailwind from '../assets/tailwind.png'
+import NextJSLogo from '../assets/nextjs.png'
+import NodeJSLogo from '../assets/nodejs.png'
+import MySQL from '../assets/mysql.png'
+import AdobeXD from '../assets/adobexd.png'
 
 const About = () => (
   <section className="about" id="about">
@@ -38,7 +42,7 @@ const About = () => (
         My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1YIG23Z643fDjxrWRsFYJf1ibCjkXrZ_3/view?usp=drivesdk" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1IOU1j0QdvTvJCILEyAtK8un7GxbKvrnd/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
@@ -104,11 +108,21 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src={NextJS}
+            src={NextJSLogo}
             alt=""
           />
           <p>Next.js</p>
         </div>
+
+        <div className="skill">
+          <img
+            src={Tailwind}
+            alt=""
+          />
+          <p>Tailwind CSS</p>
+        </div>
+
+
       </div>
       <h2 className="skill-title">Back-End</h2>
       <div className="skills">
@@ -126,6 +140,18 @@ const About = () => (
           />
           <p>Ruby on Rails</p>
         </div>
+
+        <div className="skill">
+          <img
+            src={NodeJSLogo}
+            alt=""
+          />
+          <p>Node.js</p>
+        </div>
+      </div>
+
+      <h2 className="skill-title">Database</h2>
+      <div className="skills">
         <div className="skill">
           <img
             src={PostGres}
@@ -133,7 +159,16 @@ const About = () => (
           />
           <p>PostgreSQL</p>
         </div>
+        <div className="skill">
+          <img
+            src={MySQL}
+            alt=""
+          />
+          <p>MySQL</p>
+        </div>
+        
       </div>
+
       <h2 className="skill-title">Mobile</h2>
       <div className="skills">
         <div className="skill">
@@ -201,6 +236,10 @@ const About = () => (
         <div className="skill">
           <img src={Figma} alt="" />
           <p>Figma</p>
+        </div>
+        <div className="skill">
+          <img src={AdobeXD} alt="" />
+          <p>Adobe XD</p>
         </div>
       </div>
       <h2 className="skill-title">Communication</h2>
